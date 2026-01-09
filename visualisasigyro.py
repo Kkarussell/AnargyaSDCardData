@@ -45,21 +45,21 @@ def parse_quaternion_and_accel(filename="2.txt"):
                 id_val, val = map(int, match.groups())
 
                 # Quaternion
-                if id_val == 47:
+                if id_val == 1:
                     w_raws.append(val)
-                elif id_val == 48:
+                elif id_val == 2:
                     x_raws.append(val)
-                elif id_val == 49:
+                elif id_val == 3:
                     y_raws.append(val)
-                elif id_val == 50:
+                elif id_val == 4:
                     z_raws.append(val)
 
                 # Accelerometer
-                elif id_val == 51:
+                elif id_val == 5:
                     ax_raws.append(val)
-                elif id_val == 52:
+                elif id_val == 6:
                     ay_raws.append(val)
-                elif id_val == 53:
+                elif id_val == 7:
                     az_raws.append(val)
 
     # Ensure equal lengths
