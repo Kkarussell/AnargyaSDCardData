@@ -102,4 +102,4 @@ python visualisasigyro.py
 
 ## 👨‍💻 Author
 
-Anargya Team
+LV_DataLogging_ElectricalAnargya_8th
